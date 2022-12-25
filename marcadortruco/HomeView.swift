@@ -88,7 +88,7 @@ struct HomeView: View {
                         Text(String(dadosTimes.b_pontos))
                             .foregroundColor(Color.black)
                             .font(.system(size: 85))
-                        Text(String(dadosTimes.b_nome) + " Vitórias")
+                        Text(String(dadosTimes.b_vitorias) + " Vitórias")
                             .foregroundColor(Color(.darkGray))
                             .font(.system(size: 17))
                         
