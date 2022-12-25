@@ -1,0 +1,609 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C07C52D229580099005601A6 /* marcadortrucoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C07C52D129580099005601A6 /* marcadortrucoApp.swift */; };
+		C07C52D429580099005601A6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C07C52D329580099005601A6 /* ContentView.swift */; };
+		C07C52D62958009B005601A6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C07C52D52958009B005601A6 /* Assets.xcassets */; };
+		C07C52DA2958009B005601A6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C07C52D92958009B005601A6 /* Preview Assets.xcassets */; };
+		C07C52E42958009B005601A6 /* marcadortrucoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C07C52E32958009B005601A6 /* marcadortrucoTests.swift */; };
+		C07C52EE2958009B005601A6 /* marcadortrucoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C07C52ED2958009B005601A6 /* marcadortrucoUITests.swift */; };
+		C07C52F02958009B005601A6 /* marcadortrucoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C07C52EF2958009B005601A6 /* marcadortrucoUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C07C52E02958009B005601A6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C07C52C629580098005601A6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C07C52CD29580099005601A6;
+			remoteInfo = marcadortruco;
+		};
+		C07C52EA2958009B005601A6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C07C52C629580098005601A6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C07C52CD29580099005601A6;
+			remoteInfo = marcadortruco;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C07C52CE29580099005601A6 /* marcadortruco.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = marcadortruco.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C07C52D129580099005601A6 /* marcadortrucoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = marcadortrucoApp.swift; sourceTree = "<group>"; };
+		C07C52D329580099005601A6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C07C52D52958009B005601A6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C07C52D72958009B005601A6 /* marcadortruco.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = marcadortruco.entitlements; sourceTree = "<group>"; };
+		C07C52D92958009B005601A6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C07C52DF2958009B005601A6 /* marcadortrucoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = marcadortrucoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C07C52E32958009B005601A6 /* marcadortrucoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = marcadortrucoTests.swift; sourceTree = "<group>"; };
+		C07C52E92958009B005601A6 /* marcadortrucoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = marcadortrucoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C07C52ED2958009B005601A6 /* marcadortrucoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = marcadortrucoUITests.swift; sourceTree = "<group>"; };
+		C07C52EF2958009B005601A6 /* marcadortrucoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = marcadortrucoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C07C52CB29580099005601A6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C07C52DC2958009B005601A6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C07C52E62958009B005601A6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C07C52C529580098005601A6 = {
+			isa = PBXGroup;
+			children = (
+				C07C52D029580099005601A6 /* marcadortruco */,
+				C07C52E22958009B005601A6 /* marcadortrucoTests */,
+				C07C52EC2958009B005601A6 /* marcadortrucoUITests */,
+				C07C52CF29580099005601A6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C07C52CF29580099005601A6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C07C52CE29580099005601A6 /* marcadortruco.app */,
+				C07C52DF2958009B005601A6 /* marcadortrucoTests.xctest */,
+				C07C52E92958009B005601A6 /* marcadortrucoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C07C52D029580099005601A6 /* marcadortruco */ = {
+			isa = PBXGroup;
+			children = (
+				C07C52D129580099005601A6 /* marcadortrucoApp.swift */,
+				C07C52D329580099005601A6 /* ContentView.swift */,
+				C07C52D52958009B005601A6 /* Assets.xcassets */,
+				C07C52D72958009B005601A6 /* marcadortruco.entitlements */,
+				C07C52D82958009B005601A6 /* Preview Content */,
+			);
+			path = marcadortruco;
+			sourceTree = "<group>";
+		};
+		C07C52D82958009B005601A6 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				C07C52D92958009B005601A6 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C07C52E22958009B005601A6 /* marcadortrucoTests */ = {
+			isa = PBXGroup;
+			children = (
+				C07C52E32958009B005601A6 /* marcadortrucoTests.swift */,
+			);
+			path = marcadortrucoTests;
+			sourceTree = "<group>";
+		};
+		C07C52EC2958009B005601A6 /* marcadortrucoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C07C52ED2958009B005601A6 /* marcadortrucoUITests.swift */,
+				C07C52EF2958009B005601A6 /* marcadortrucoUITestsLaunchTests.swift */,
+			);
+			path = marcadortrucoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C07C52CD29580099005601A6 /* marcadortruco */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C07C52F32958009B005601A6 /* Build configuration list for PBXNativeTarget "marcadortruco" */;
+			buildPhases = (
+				C07C52CA29580099005601A6 /* Sources */,
+				C07C52CB29580099005601A6 /* Frameworks */,
+				C07C52CC29580099005601A6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = marcadortruco;
+			productName = marcadortruco;
+			productReference = C07C52CE29580099005601A6 /* marcadortruco.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C07C52DE2958009B005601A6 /* marcadortrucoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C07C52F62958009B005601A6 /* Build configuration list for PBXNativeTarget "marcadortrucoTests" */;
+			buildPhases = (
+				C07C52DB2958009B005601A6 /* Sources */,
+				C07C52DC2958009B005601A6 /* Frameworks */,
+				C07C52DD2958009B005601A6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C07C52E12958009B005601A6 /* PBXTargetDependency */,
+			);
+			name = marcadortrucoTests;
+			productName = marcadortrucoTests;
+			productReference = C07C52DF2958009B005601A6 /* marcadortrucoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C07C52E82958009B005601A6 /* marcadortrucoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C07C52F92958009B005601A6 /* Build configuration list for PBXNativeTarget "marcadortrucoUITests" */;
+			buildPhases = (
+				C07C52E52958009B005601A6 /* Sources */,
+				C07C52E62958009B005601A6 /* Frameworks */,
+				C07C52E72958009B005601A6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C07C52EB2958009B005601A6 /* PBXTargetDependency */,
+			);
+			name = marcadortrucoUITests;
+			productName = marcadortrucoUITests;
+			productReference = C07C52E92958009B005601A6 /* marcadortrucoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C07C52C629580098005601A6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					C07C52CD29580099005601A6 = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+					C07C52DE2958009B005601A6 = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = C07C52CD29580099005601A6;
+					};
+					C07C52E82958009B005601A6 = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = C07C52CD29580099005601A6;
+					};
+				};
+			};
+			buildConfigurationList = C07C52C929580098005601A6 /* Build configuration list for PBXProject "marcadortruco" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C07C52C529580098005601A6;
+			productRefGroup = C07C52CF29580099005601A6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C07C52CD29580099005601A6 /* marcadortruco */,
+				C07C52DE2958009B005601A6 /* marcadortrucoTests */,
+				C07C52E82958009B005601A6 /* marcadortrucoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C07C52CC29580099005601A6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C07C52DA2958009B005601A6 /* Preview Assets.xcassets in Resources */,
+				C07C52D62958009B005601A6 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C07C52DD2958009B005601A6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C07C52E72958009B005601A6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C07C52CA29580099005601A6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C07C52D429580099005601A6 /* ContentView.swift in Sources */,
+				C07C52D229580099005601A6 /* marcadortrucoApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C07C52DB2958009B005601A6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C07C52E42958009B005601A6 /* marcadortrucoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C07C52E52958009B005601A6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C07C52EE2958009B005601A6 /* marcadortrucoUITests.swift in Sources */,
+				C07C52F02958009B005601A6 /* marcadortrucoUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C07C52E12958009B005601A6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C07C52CD29580099005601A6 /* marcadortruco */;
+			targetProxy = C07C52E02958009B005601A6 /* PBXContainerItemProxy */;
+		};
+		C07C52EB2958009B005601A6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C07C52CD29580099005601A6 /* marcadortruco */;
+			targetProxy = C07C52EA2958009B005601A6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		C07C52F12958009B005601A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C07C52F22958009B005601A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		C07C52F42958009B005601A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = marcadortruco/marcadortruco.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"marcadortruco/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gmoreira05.marcadortruco;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C07C52F52958009B005601A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = marcadortruco/marcadortruco.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"marcadortruco/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gmoreira05.marcadortruco;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C07C52F72958009B005601A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gmoreira05.marcadortrucoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/marcadortruco.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/marcadortruco";
+			};
+			name = Debug;
+		};
+		C07C52F82958009B005601A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gmoreira05.marcadortrucoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/marcadortruco.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/marcadortruco";
+			};
+			name = Release;
+		};
+		C07C52FA2958009B005601A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gmoreira05.marcadortrucoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = marcadortruco;
+			};
+			name = Debug;
+		};
+		C07C52FB2958009B005601A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gmoreira05.marcadortrucoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = marcadortruco;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C07C52C929580098005601A6 /* Build configuration list for PBXProject "marcadortruco" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C07C52F12958009B005601A6 /* Debug */,
+				C07C52F22958009B005601A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C07C52F32958009B005601A6 /* Build configuration list for PBXNativeTarget "marcadortruco" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C07C52F42958009B005601A6 /* Debug */,
+				C07C52F52958009B005601A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C07C52F62958009B005601A6 /* Build configuration list for PBXNativeTarget "marcadortrucoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C07C52F72958009B005601A6 /* Debug */,
+				C07C52F82958009B005601A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C07C52F92958009B005601A6 /* Build configuration list for PBXNativeTarget "marcadortrucoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C07C52FA2958009B005601A6 /* Debug */,
+				C07C52FB2958009B005601A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C07C52C629580098005601A6 /* Project object */;
+}
