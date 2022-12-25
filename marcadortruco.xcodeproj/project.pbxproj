@@ -7,13 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C0354C9B2958C89D003FE101 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0354C9A2958C89D003FE101 /* LaunchScreen.storyboard */; };
 		C07C52D229580099005601A6 /* marcadortrucoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C07C52D129580099005601A6 /* marcadortrucoApp.swift */; };
 		C07C52D429580099005601A6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C07C52D329580099005601A6 /* ContentView.swift */; };
 		C07C52D62958009B005601A6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C07C52D52958009B005601A6 /* Assets.xcassets */; };
 		C07C52DA2958009B005601A6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C07C52D92958009B005601A6 /* Preview Assets.xcassets */; };
-		C07C52E42958009B005601A6 /* marcadortrucoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C07C52E32958009B005601A6 /* marcadortrucoTests.swift */; };
-		C07C52EE2958009B005601A6 /* marcadortrucoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C07C52ED2958009B005601A6 /* marcadortrucoUITests.swift */; };
-		C07C52F02958009B005601A6 /* marcadortrucoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C07C52EF2958009B005601A6 /* marcadortrucoUITestsLaunchTests.swift */; };
+		C0C6EB312958D40300D8AA8B /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0C6EB302958D40300D8AA8B /* HomeView.swift */; };
+		C0C6EB332958D6FD00D8AA8B /* ConfigView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0C6EB322958D6FD00D8AA8B /* ConfigView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +34,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C0354C9A2958C89D003FE101 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C07C52CE29580099005601A6 /* marcadortruco.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = marcadortruco.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C07C52D129580099005601A6 /* marcadortrucoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = marcadortrucoApp.swift; sourceTree = "<group>"; };
 		C07C52D329580099005601A6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -41,10 +42,9 @@
 		C07C52D72958009B005601A6 /* marcadortruco.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = marcadortruco.entitlements; sourceTree = "<group>"; };
 		C07C52D92958009B005601A6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		C07C52DF2958009B005601A6 /* marcadortrucoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = marcadortrucoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		C07C52E32958009B005601A6 /* marcadortrucoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = marcadortrucoTests.swift; sourceTree = "<group>"; };
 		C07C52E92958009B005601A6 /* marcadortrucoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = marcadortrucoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		C07C52ED2958009B005601A6 /* marcadortrucoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = marcadortrucoUITests.swift; sourceTree = "<group>"; };
-		C07C52EF2958009B005601A6 /* marcadortrucoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = marcadortrucoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C0C6EB302958D40300D8AA8B /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		C0C6EB322958D6FD00D8AA8B /* ConfigView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfigView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,8 +76,6 @@
 			isa = PBXGroup;
 			children = (
 				C07C52D029580099005601A6 /* marcadortruco */,
-				C07C52E22958009B005601A6 /* marcadortrucoTests */,
-				C07C52EC2958009B005601A6 /* marcadortrucoUITests */,
 				C07C52CF29580099005601A6 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -100,6 +98,9 @@
 				C07C52D52958009B005601A6 /* Assets.xcassets */,
 				C07C52D72958009B005601A6 /* marcadortruco.entitlements */,
 				C07C52D82958009B005601A6 /* Preview Content */,
+				C0354C9A2958C89D003FE101 /* LaunchScreen.storyboard */,
+				C0C6EB302958D40300D8AA8B /* HomeView.swift */,
+				C0C6EB322958D6FD00D8AA8B /* ConfigView.swift */,
 			);
 			path = marcadortruco;
 			sourceTree = "<group>";
@@ -110,23 +111,6 @@
 				C07C52D92958009B005601A6 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		C07C52E22958009B005601A6 /* marcadortrucoTests */ = {
-			isa = PBXGroup;
-			children = (
-				C07C52E32958009B005601A6 /* marcadortrucoTests.swift */,
-			);
-			path = marcadortrucoTests;
-			sourceTree = "<group>";
-		};
-		C07C52EC2958009B005601A6 /* marcadortrucoUITests */ = {
-			isa = PBXGroup;
-			children = (
-				C07C52ED2958009B005601A6 /* marcadortrucoUITests.swift */,
-				C07C52EF2958009B005601A6 /* marcadortrucoUITestsLaunchTests.swift */,
-			);
-			path = marcadortrucoUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -193,7 +177,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1400;
-				LastUpgradeCheck = 1400;
+				LastUpgradeCheck = 1420;
 				TargetAttributes = {
 					C07C52CD29580099005601A6 = {
 						CreatedOnToolsVersion = 14.0.1;
@@ -233,6 +217,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C0354C9B2958C89D003FE101 /* LaunchScreen.storyboard in Resources */,
 				C07C52DA2958009B005601A6 /* Preview Assets.xcassets in Resources */,
 				C07C52D62958009B005601A6 /* Assets.xcassets in Resources */,
 			);
@@ -259,6 +244,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C0C6EB332958D6FD00D8AA8B /* ConfigView.swift in Sources */,
+				C0C6EB312958D40300D8AA8B /* HomeView.swift in Sources */,
 				C07C52D429580099005601A6 /* ContentView.swift in Sources */,
 				C07C52D229580099005601A6 /* marcadortrucoApp.swift in Sources */,
 			);
@@ -268,7 +255,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C07C52E42958009B005601A6 /* marcadortrucoTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,8 +262,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C07C52EE2958009B005601A6 /* marcadortrucoUITests.swift in Sources */,
-				C07C52F02958009B005601A6 /* marcadortrucoUITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -330,6 +314,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
@@ -388,6 +373,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -412,22 +398,28 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = marcadortruco/marcadortruco.entitlements;
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_ASSET_PATHS = "\"marcadortruco/Preview Content\"";
+				DEVELOPMENT_TEAM = QXF79BAH5H;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Conta Truco";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.games";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 12.3;
@@ -435,10 +427,12 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.gmoreira05.marcadortruco;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -448,22 +442,28 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = marcadortruco/marcadortruco.entitlements;
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_ASSET_PATHS = "\"marcadortruco/Preview Content\"";
+				DEVELOPMENT_TEAM = QXF79BAH5H;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Conta Truco";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.games";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 12.3;
@@ -471,10 +471,12 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.gmoreira05.marcadortruco;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -485,6 +487,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				MACOSX_DEPLOYMENT_TARGET = 12.3;
@@ -507,6 +510,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				MACOSX_DEPLOYMENT_TARGET = 12.3;
@@ -528,6 +532,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				MACOSX_DEPLOYMENT_TARGET = 12.3;
@@ -549,6 +554,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				MACOSX_DEPLOYMENT_TARGET = 12.3;

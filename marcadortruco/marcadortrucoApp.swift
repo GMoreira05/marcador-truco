@@ -9,9 +9,10 @@ import SwiftUI
 
 @main
 struct marcadortrucoApp: App {
+    @StateObject var dadosTimes = DadosTimes()
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView().environmentObject(dadosTimes)
         }
     }
 }
