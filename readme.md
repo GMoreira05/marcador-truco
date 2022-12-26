@@ -11,4 +11,4 @@ Queria aprender algo novo, então resolvi tentar aprender Flutter e acabei coloc
 ![Configurações](https://i.imgur.com/0mymh56.png)
 
 ### Vídeo em Funcionamento
-![Vídeo em Funcionamento](https://i.imgur.com/nnmXvZk.mp4)
+![Vídeo em Funcionamento](https://i.imgur.com/ngRt2TA.gif)
