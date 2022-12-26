@@ -76,6 +76,7 @@ struct ContentView: View {
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView()
+            .environmentObject(DadosTimes())
     }
 }
 
@@ -87,4 +88,6 @@ class DadosTimes: ObservableObject{
     @Published var b_nome = "Eles"
     @Published var b_pontos = 0
     @Published var b_vitorias = 0
+    
+    @Published var notificar_vitoria = true
 }

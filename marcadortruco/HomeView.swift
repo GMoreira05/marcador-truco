@@ -10,6 +10,9 @@ import SwiftUI
 struct HomeView: View {
     @EnvironmentObject var dadosTimes: DadosTimes
     
+    @State var alguem_ganhou = false
+    @State var ganhador = ""
+    
     func resetaTudo(){
         dadosTimes.a_pontos = 0
         dadosTimes.a_vitorias = 0
@@ -23,13 +26,19 @@ struct HomeView: View {
             if(dadosTimes.a_pontos > 11)
             {
                 dadosTimes.a_vitorias+=1
+                ganhador = "a"
             }
             else if(dadosTimes.b_pontos > 11)
             {
                 dadosTimes.b_vitorias+=1
+                ganhador = "b"
             }
             dadosTimes.a_pontos = 0
             dadosTimes.b_pontos = 0
+            
+            if(dadosTimes.notificar_vitoria == true){
+                alguem_ganhou = true
+            }
         }
     }
     
@@ -86,6 +95,12 @@ struct HomeView: View {
                 BotaoPrimario(title: "Zerar Placar", action: {
                     resetaTudo()
                 })
+            }.alert(isPresented: $alguem_ganhou) {
+                Alert(
+                    title: Text("Vitória 🥳"),
+                    message: Text("A equipe '\((ganhador == "a" ? dadosTimes.a_nome : dadosTimes.b_nome))' ganhou essa partida!"),
+                    dismissButton: .default(Text("Ok"))
+                )
             }
             .padding(.horizontal, 20)
         }
@@ -96,5 +111,6 @@ struct HomeView: View {
 struct HomeView_Previews: PreviewProvider {
     static var previews: some View {
         HomeView()
+            .environmentObject(DadosTimes())
     }
 }

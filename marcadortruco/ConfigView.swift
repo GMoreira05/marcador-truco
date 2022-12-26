@@ -19,6 +19,9 @@ struct ConfigView: View {
                         TextField("Equipe 1", text: $dadosTimes.a_nome)
                         TextField("Equipe 2", text: $dadosTimes.b_nome)
                     }
+                    Section(header: Text("Opções de Partida")){
+                        Toggle("Notificar Vitória", isOn: $dadosTimes.notificar_vitoria) 
+                    }
                 }
             }
         }
@@ -28,5 +31,6 @@ struct ConfigView: View {
 struct ConfigView_Previews: PreviewProvider {
     static var previews: some View {
         ConfigView()
+            .environmentObject(DadosTimes())
     }
 }
