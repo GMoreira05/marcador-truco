@@ -14,9 +14,11 @@ struct ConfigView: View {
             Color("FundoVerde")
                 .ignoresSafeArea()
             VStack{
-                Button("Mudar Nome"){
-                    //times.times[0].nome = "Nome mudou"
-                    print(dadosTimes.a_nome)
+                Form{
+                    Section(header: Text("Equipes")){
+                        TextField("Equipe 1", text: $dadosTimes.a_nome)
+                        TextField("Equipe 2", text: $dadosTimes.b_nome)
+                    }
                 }
             }
         }
