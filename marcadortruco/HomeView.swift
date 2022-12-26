@@ -11,10 +11,6 @@ struct HomeView: View {
     @EnvironmentObject var dadosTimes: DadosTimes
     
     func resetaTudo(){
-        /*for time in times.times{
-            time.reset()
-        }*/
-
         dadosTimes.a_pontos = 0
         dadosTimes.a_vitorias = 0
 
@@ -23,25 +19,6 @@ struct HomeView: View {
     }
     
     func verificaGanhador(){
-        /*for time in times.times{
-            if(time.pontos > 11){
-                time.vitorias+=1
-                for time in times.times{
-                    time.pontos = 0
-                }
-            }
-        }*/
-        /*if(InfoJogo.time1.pontos > 11 || InfoJogo.time2.pontos > 11){
-            if(InfoJogo.time1.pontos > 11){
-                InfoJogo.time1.vitorias = InfoJogo.time1.vitorias + 1
-            }
-            if(InfoJogo.time2.pontos > 11){
-                InfoJogo.time2.vitorias = InfoJogo.time2.vitorias + 1
-            }
-            InfoJogo.time1.pontos = 0
-            InfoJogo.time2.pontos = 0
-        }*/
-
         if(dadosTimes.a_pontos > 11 || dadosTimes.b_pontos > 11){
             if(dadosTimes.a_pontos > 11)
             {
@@ -76,7 +53,6 @@ struct HomeView: View {
                         BotaoPrimario(title: "+", size: 50, action: {
                             dadosTimes.a_pontos+=1
                             verificaGanhador()
-                            print(String(dadosTimes.a_pontos))
                         })
                     }
                     .inExpandingRectangle()
